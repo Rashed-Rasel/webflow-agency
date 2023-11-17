@@ -1,0 +1,132 @@
+/* ============================ */
+/* =======common css start========== */
+/* =========================== */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+img {
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+div,
+li {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: var(--fontfamily);
+}
+:root {
+  --navbar-fotter: #1c1e53;
+  --white: #fff;
+  --fontfamily: "Poppins", sans-serif;
+  --text-hovar: #eedf0d;
+  --text-color: #282938;
+}
+
+/* ============================ */
+/* =====common css End========== */
+/* =========================== */
+
+/* ============================ */
+/* =====navbar css start========== */
+/* =========================== */
+#nevbar {
+  background-color: var(--navbar-fotter);
+}
+
+#nevbar ul li a {
+  color: #bbbbcb;
+  font-family: var(--fontfamily);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+#nevbar ul li a:hover {
+  color: var(--text-hovar);
+}
+#nevbar .btn button {
+  padding: 16px 48px;
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  margin-left: 48px;
+  background-color: transparent;
+  transition: all linear 0.3s;
+}
+#nevbar .btn button:hover {
+  background-color: var(--text-hovar);
+}
+#nevbar .btn button a {
+  color: var(--White, #fff);
+  font-family: var(--fontfamily);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  transition: all linear 0.3s;
+}
+#nevbar .btn button a:hover {
+  color: var(--text-color);
+}
+
+/* ============================ */
+/* =====Navbar css End========== */
+/* =========================== */
+
+/* ============================ */
+/* =====Banner css start========== */
+/* =========================== */
+#banner {
+  padding: 128px 0;
+}
+#banner .banner-left h5 {
+  color: var(--text-color, #282938);
+  font-family: var(--fontfamily);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-top: 24px;
+}
+#banner .banner-left h1 {
+  color: var(--text-color, #282938);
+  font-family: var(--fontfamily);
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+  margin-bottom: 31px;
+}
+#banner .banner-left p {
+  color: var(--text-color, #282938);
+  text-align: justify;
+  font-family: var(--fontfamily);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+#banner picture img {
+  transition: all linear 0.3s;
+}
+#banner picture img:hover {
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+/* ============================ */
+/* =====Banner css end========== */
+/* =========================== */
