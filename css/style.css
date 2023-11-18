@@ -28,13 +28,11 @@ li {
   padding: 0;
   margin: 0;
 }
-body {
-  font-family: var(--fontfamily);
-}
+
 :root {
   --navbar-fotter: #1c1e53;
   --white: #fff;
-  --fontfamily: "Poppins", sans-serif;
+  --font-family: "Poppins", sans-serif;
   --text-hovar: #eedf0d;
   --text-color: #282938;
 }
@@ -52,13 +50,21 @@ body {
 
 #nevbar ul li a {
   color: #bbbbcb;
-  font-family: var(--fontfamily);
+  font-family: var(--font-family);
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
+  text-align: center;
 }
 #nevbar ul li a:hover {
   color: var(--text-hovar);
+}
+#nevbar .navbar-toggler {
+  color: var(--white);
+}
+#nevbar .fa-bars {
+  color: var(--white);
+  font-size: 30px;
 }
 #nevbar .btn button {
   padding: 16px 48px;
@@ -73,7 +79,7 @@ body {
 }
 #nevbar .btn button a {
   color: var(--White, #fff);
-  font-family: var(--fontfamily);
+  font-family: var(--font-family);
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
@@ -95,7 +101,7 @@ body {
 }
 #banner .banner-left h5 {
   color: var(--text-color, #282938);
-  font-family: var(--fontfamily);
+  font-family: var(--font-family);
   font-size: 18px;
   font-weight: 500;
   line-height: 32px;
@@ -103,7 +109,7 @@ body {
 }
 #banner .banner-left h1 {
   color: var(--text-color, #282938);
-  font-family: var(--fontfamily);
+  font-family: var(--font-family);
   font-size: 54px;
   font-weight: 600;
   line-height: 74px;
@@ -112,7 +118,7 @@ body {
 #banner .banner-left p {
   color: var(--text-color, #282938);
   text-align: justify;
-  font-family: var(--fontfamily);
+  font-family: var(--font-family);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -129,4 +135,261 @@ body {
 
 /* ============================ */
 /* =====Banner css end========== */
+/* =========================== */
+
+/* ============================ */
+/* =====goal css start========== */
+/* =========================== */
+#goal {
+  padding-top: 80px;
+  padding-bottom: 128px;
+  background: #f4f5f5;
+}
+#goal .goal-items h6 {
+  color: var(--text-color, #282938);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 4px;
+}
+#goal .goal-items h2 {
+  color: var(--text-color, #282938);
+  font-family: var(--font-family);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+  margin-bottom: 16px;
+}
+#goal .goal-items p {
+  color: var(--text-color, #282938);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+  margin-bottom: 80px;
+}
+
+#goal picture img:hover {
+  box-shadow: rgba(211, 13, 13, 0.16) 0px 1px 4px,
+    rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+/* ============================ */
+/* =====goal css end========== */
+/* =========================== */
+
+/* ============================ */
+/* =====process css start======= */
+/* =========================== */
+
+#process {
+  padding: 128px 0;
+}
+#process .process-tittle h2 {
+  color: var(--text-color, #282938);
+  font-family: var(--font-family);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  margin-bottom: 60px;
+}
+#process .dot-element span {
+  position: relative;
+}
+#process .dot-element span::after {
+  position: absolute;
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-color: #2405f2;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+}
+#process .dot-element h4 {
+  color: var(--text-color, #282938);
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  margin-top: 40px;
+}
+#process .dot-element p {
+  color: var(--text-color, #282938);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 10px;
+  opacity: 0.7;
+}
+
+/* ============================ */
+/* =====process css end======= */
+/* =========================== */
+
+/* ============================ */
+/* =====inspire css start======= */
+/* =========================== */
+#inspire {
+  padding: 128px 0 96px;
+  background-color: #eef4fa;
+}
+#inspire .inspire_left h6 {
+  color: var(--text-color, #282938);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 54px;
+}
+#inspire .inspire_left h2 {
+  color: var(--text-color, #282938);
+  font-family: var(--font-family);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+}
+#inspire .inspire_left p {
+  color: var(--text-color, #282938);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+#inspire picture img {
+  transition: all linear 0.3s;
+}
+#inspire picture img:hover {
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+/* ============================ */
+/* =====inspire css end======= */
+/* =========================== */
+
+/* ============================ */
+/* =====focus css start======= */
+/* =========================== */
+#focus {
+  padding: 96px 0 128px;
+  background-color: #eef4fa;
+}
+#focus .focus_right h6 {
+  color: var(--text-color, #282938);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 54px;
+}
+#focus .focus_right h2 {
+  color: var(--text-color, #282938);
+  font-family: var(--font-family);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+  margin-left: 26px;
+}
+#focus .focus_right p {
+  color: var(--text-color, #282938);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-left: 26px;
+  opacity: 0.7;
+}
+#focus picture img {
+  transition: all linear 0.3s;
+}
+#focus picture img:hover {
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
+}
+/* ============================ */
+/* =====focus css end======= */
+/* =========================== */
+
+/* ============================ */
+/* =====Benefits css start======= */
+/* =========================== */
+#benefits {
+  padding: 128px 0;
+}
+#benefits .benefits_tittle h2 {
+  color: var(--text-color, #282938);
+  font-family: var(--font-family);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  margin-bottom: 48px;
+}
+#benefits .benefits_item {
+  height: 316px;
+  background-color: #f4f6fc;
+  padding: 50px 32px 0 48px;
+  margin-bottom: 48px;
+  transition: all linear 0.3s;
+}
+#benefits .benefits_item:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#benefits .benefits_item h4 {
+  color: var(--text-color, #282938);
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+#benefits .benefits_item p {
+  color: var(--font-family, #282938);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+#benefits .benefits_icon h3 {
+  color: var(--text-color, #282938);
+  font-family: var(--font-family);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+}
+#benefits .benefits_icon p {
+  color: var(--text-color, #282938);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+
+/* ============================ */
+/* =====Benefits css end======= */
+/* =========================== */
+
+/* ============================ */
+/* =====Team css start======= */
+/* =========================== */
+#team {
+  padding: 128px 0;
+  background-color: #f4f6fc;
+}
+#team .team_tittle h2 {
+  color: var(--text-color, #282938);
+  font-family: var(--font-family);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  margin-bottom: 48px;
+}
+/* ============================ */
+/* =====Team css end======= */
 /* =========================== */
