@@ -390,6 +390,169 @@ li {
   line-height: 64px;
   margin-bottom: 48px;
 }
+#team .team_box {
+  width: 296px;
+  height: 344px;
+  background-color: var(--white);
+  transition: all linear 0.3s;
+}
+#team .team_box:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#team .team_box h5 {
+  color: #1d2130;
+  font-family: var(--Poppins);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+#team .team_box p {
+  color: #1d2130;
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+#team .team_box .team_img picture img {
+  margin-top: 48px;
+  overflow: hidden;
+}
+#team .team_box .team_img .team_overly {
+  top: 0;
+  left: 65px;
+  width: 168px;
+  height: 168px;
+  border-radius: 50%;
+  background: linear-gradient(
+    348deg,
+    #5239fa 17.97%,
+    rgba(255, 255, 255, 0) 79.2%
+  );
+  margin-top: 48px;
+  scale: 0;
+  transition: all linear 0.3s;
+}
+#team .team_box .team_img:hover .team_overly {
+  scale: 1;
+}
+
+#team .team_box .team_img .team_icon {
+  position: absolute;
+  bottom: 0;
+  left: 22px;
+  margin-bottom: 20px;
+}
+#team .team_box .team_img .team_icon a {
+  color: var(--white);
+  padding-left: 10px;
+}
+#team .team_box .team_img .team_icon a:hover {
+  transform: translateY(-15%);
+}
+
 /* ============================ */
 /* =====Team css end======= */
+/* =========================== */
+
+/* ============================ */
+/* =====footer css start======= */
+/* =========================== */
+#footer {
+  background-color: #1c1e53;
+}
+#footer .footer-left {
+  margin-top: 100px;
+}
+#footer .footer-left p {
+  color: var(--white);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.8;
+  margin-top: 22px;
+  margin-bottom: 86px;
+}
+#footer .footer-left .footer-left-last {
+  padding: 6px 10px;
+  background: #fcd980;
+}
+#footer .footer-left .footer-left-last .text {
+  padding-top: 24px;
+  padding-left: 37px;
+}
+#footer .footer-left .footer-left-last .text h3 {
+  color: var(--text-color, #282938);
+  font-family: var(--Poppins);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+}
+#footer .footer-left .footer-left-last .text a {
+  color: var(--text-color, #282938);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+#footer .footer-right {
+  margin-top: 100px;
+}
+#footer .footer-right h1 {
+  color: var(--white);
+  font-family: var(--Poppins);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  margin-bottom: 14px;
+}
+#footer .footer-right p {
+  color: #f4f6fc;
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
+  margin-bottom: 28px;
+}
+#footer .footer-right .icon a {
+  padding-right: 20px;
+  color: var(--white);
+}
+#footer .footer-right .icon a:hover {
+  transform: translateY(-15%);
+}
+
+/* ============================ */
+/* =====footer css end======= */
+/* =========================== */
+
+/* ============================ */
+/* =====footer navbar css start======= */
+/* =========================== */
+#footer-nevbar p {
+  color: var(--text-color, #282938);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+#footer-nevbar ul li {
+  padding-left: 10px;
+}
+#footer-nevbar ul li a {
+  color: var(--text-color, #282938);
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+#footer-nevbar ul li a:hover {
+  background-color: var(--text-hovar);
+}
+
+/* ============================ */
+/* ===footer navbar css end===== */
 /* =========================== */

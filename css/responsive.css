@@ -1,0 +1,217 @@
+/* ========================================================== */
+/*========== ===nevbar responsive css start================== */
+/* =========================================================== */
+@media (max-width: 1199.98px) {
+  #nevbar .btn button {
+    padding: 12px 48px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    margin-top: 20px;
+  }
+  #nevbar ul li a {
+    background-color: var(--text-hovar);
+    margin-bottom: 20px;
+    color: #000000;
+    border-radius: 20px;
+    transition: all linear 0.3s;
+  }
+  #nevbar ul li a:hover {
+    color: brown;
+  }
+}
+
+/* ========================================================== */
+/*========== ===nevbar responsive css end================== */
+/* =========================================================== */
+
+/* ========================================================== */
+/*================banner responsive css start================== */
+/* =========================================================== */
+
+@media (max-width: 1199.98px) {
+  #banner .banner-left h5 {
+    line-height: 23px;
+    margin-top: 0px;
+  }
+  #banner .banner-left h1 {
+    font-size: 49px;
+    line-height: 66px;
+    margin-bottom: 19px;
+  }
+  #banner .banner-left p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #banner {
+    padding: 62px 0;
+  }
+  #banner .banner-left h1 {
+    font-size: 43px;
+    line-height: 66px;
+    margin-bottom: 7px;
+  }
+  #banner .banner-left p {
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+/* ========================================================== */
+/*================banner responsive css end================== */
+/* =========================================================== */
+
+/* ========================================================== */
+/*================goal responsive css start================== */
+/* =========================================================== */
+
+@media (max-width: 1199.98px) {
+  #goal .goal-items p {
+    font-size: 15px;
+  }
+  #goal .goal-items h2 {
+    font-size: 29px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #goal .goal-items h2 {
+    font-size: 26px;
+  }
+  #goal .goal-items p {
+    font-size: 13px;
+  }
+}
+
+/* ========================================================== */
+/*================goal responsive css end================== */
+/* =========================================================== */
+
+/* ========================================================== */
+/*================process responsive css start================== */
+/* =========================================================== */
+
+@media (max-width: 991.98px) {
+  #process {
+    padding: 62px 0;
+  }
+  #process .dot-element h4 {
+    font-size: 22px;
+    line-height: 32px;
+    margin-top: 21px;
+  }
+  #process .dot-element p {
+    font-size: 15px;
+    line-height: 27px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+  }
+}
+
+/* ========================================================== */
+/*================process responsive css end================== */
+/* =========================================================== */
+
+/* ========================================================== */
+/*================inspire responsive css start================== */
+/* =========================================================== */
+@media (max-width: 1199.98px) {
+  #inspire .inspire_left h6 {
+    margin-top: 30px;
+  }
+  #inspire .inspire_left h2 {
+    font-size: 35px;
+    line-height: 51px;
+  }
+  #inspire .inspire_left p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #inspire {
+    padding: 62px 0;
+  }
+  #inspire .inspire_left p {
+    margin-bottom: 30px;
+  }
+}
+
+/* ========================================================== */
+/*================inspire responsive css end================== */
+/* =========================================================== */
+
+/* ========================================================== */
+/*================focus responsive css start================== */
+/* =========================================================== */
+
+@media (max-width: 1199.98px) {
+  #focus .focus_right h6 {
+    margin-top: 30px;
+  }
+  #focus .focus_right h2 {
+    font-size: 35px;
+    line-height: 51px;
+  }
+}
+
+/* ========================================================== */
+/*================focus responsive css end================== */
+/* =========================================================== */
+
+/* ========================================================== */
+/*================Benefits responsive css start================== */
+/* =========================================================== */
+
+@media (max-width: 1199.98px) {
+  #benefits {
+    padding: 62px 0;
+  }
+  #benefits .benefits_item {
+    padding: 31px 20px 0 20px;
+  }
+  #benefits .benefits_item h4 {
+    line-height: 25px;
+  }
+  #benefits .benefits_item p {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #benefits .benefits_tittle h2 {
+    font-size: 44px;
+    line-height: 57px;
+  }
+}
+
+/* ========================================================== */
+/*================Benefits responsive css end================== */
+/* =========================================================== */
+
+/* ========================================================== */
+/*================Team  responsive css start================== */
+/* =========================================================== */
+
+@media (max-width: 1199.98px) {
+  #team {
+    padding: 62px 0;
+  }
+}
+
+/* ========================================================== */
+/*================Team  responsive css end================== */
+/* =========================================================== */
+
+/* ========================================================== */
+/*================Footer  responsive css start================== */
+/* =========================================================== */
+
+/* ========================================================== */
+/*================Footer  responsive css end================== */
+/* =========================================================== */
