@@ -50,15 +50,39 @@
   #banner {
     padding: 62px 0;
   }
+  #banner .banner-left h5 {
+    text-align: center;
+  }
   #banner .banner-left h1 {
     font-size: 43px;
     line-height: 66px;
     margin-bottom: 7px;
+    text-align: center;
   }
   #banner .banner-left p {
     font-size: 13px;
     text-align: center;
     margin-bottom: 20px;
+    text-align: center;
+    padding: 0 67px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #banner .banner-left h1 {
+    font-size: 34px;
+    line-height: 57px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #banner .banner-left h1 {
+    font-size: 20px;
+    line-height: 34px;
+  }
+  #banner .banner-left p {
+    font-size: 10px;
+    padding: 0px 46px;
   }
 }
 
@@ -87,6 +111,45 @@
     font-size: 13px;
   }
 }
+@media (max-width: 767.98px) {
+  #goal {
+    padding-bottom: 80px;
+  }
+  #goal .goal-items h2 {
+    font-size: 19px;
+    margin-bottom: 0;
+  }
+  #goal .goal-items p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 40px;
+    justify-content: center;
+    padding: 0 6px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #goal {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  #goal .goal-items {
+    text-align: center;
+  }
+  #goal .goal-items h6 {
+    font-size: 14px;
+    line-height: 8px;
+    margin-bottom: 0px;
+  }
+  #goal .goal-items p {
+    margin-bottom: 10px;
+  }
+  #goal .goal-items h2 {
+    font-size: 18px;
+    line-height: 36px;
+    margin-bottom: 16px;
+  }
+}
 
 /* ========================================================== */
 /*================goal responsive css end================== */
@@ -110,6 +173,28 @@
     line-height: 27px;
     margin-top: 6px;
     margin-bottom: 20px;
+  }
+}
+@media (max-width: 767.98px) {
+  #process .process-tittle h2 {
+    line-height: 26px;
+  }
+  #process .dot-element h4 {
+    font-size: 20px;
+  }
+  #process .dot-element p {
+    font-size: 13px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 575.98px) {
+  #process .process-tittle h2 {
+    font-size: 22px;
+    line-height: 64px;
+    margin-bottom: 33px;
+  }
+  #process .dot-element {
+    text-align: center;
   }
 }
 
@@ -137,8 +222,37 @@
   #inspire {
     padding: 62px 0;
   }
+  #inspire .inspire_left h6 {
+    text-align: center;
+  }
+  #inspire .inspire_left h2 {
+    text-align: center;
+  }
   #inspire .inspire_left p {
     margin-bottom: 30px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #inspire {
+    padding: 0;
+  }
+  #inspire .inspire_left h2 {
+    font-size: 30px;
+    line-height: 46px;
+  }
+  #inspire .inspire_left p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 575.98px) {
+  #inspire .inspire_left h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  #inspire .inspire_left p {
+    font-size: 10px;
   }
 }
 
@@ -157,6 +271,44 @@
   #focus .focus_right h2 {
     font-size: 35px;
     line-height: 51px;
+  }
+}
+@media (max-width: 991.98px) {
+  #focus {
+    padding: 96px 0 82px;
+  }
+  #focus .focus_right h6 {
+    text-align: center;
+  }
+  #focus .focus_right h2 {
+    text-align: center;
+  }
+  #focus .focus_right p {
+    text-align: center;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #focus {
+    padding: 96px 0 10px;
+  }
+  #focus .focus_right h2 {
+    font-size: 31px;
+    line-height: 46px;
+  }
+  #focus .focus_right p {
+    font-size: 12px;
+    line-height: 28px;
+  }
+}
+@media (max-width: 575.98px) {
+  #focus .focus_right h2 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  #focus .focus_right p {
+    margin-left: 0px;
   }
 }
 
@@ -189,7 +341,41 @@
     line-height: 57px;
   }
 }
-
+@media (max-width: 767.98px) {
+  #benefits .benefits_tittle h2 {
+    font-size: 32px;
+    line-height: 46px;
+    margin-bottom: 22px;
+  }
+  #benefits .benefits_item {
+    text-align: center;
+  }
+  #benefits .benefits_item h4 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  #benefits .benefits_item p {
+    font-size: 13px;
+    line-height: 27px;
+  }
+}
+@media (max-width: 575.98px) {
+  #benefits {
+    padding: 14px 0;
+  }
+  #benefits .benefits_tittle h2 {
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 12px;
+  }
+  .benefits-logo {
+    text-align: center;
+  }
+  #benefits .benefits_icon h3 {
+    font-size: 30px;
+    line-height: 41px;
+  }
+}
 /* ========================================================== */
 /*================Benefits responsive css end================== */
 /* =========================================================== */
@@ -203,6 +389,22 @@
     padding: 62px 0;
   }
 }
+@media (max-width: 991.98px) {
+  #team .team_box {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767.98px) {
+  #team .team_box {
+  }
+}
+
+@media (max-width: 575.98px) {
+  #team .team_tittle h2 {
+    font-size: 26px;
+    line-height: 0px;
+  }
+}
 
 /* ========================================================== */
 /*================Team  responsive css end================== */
@@ -211,6 +413,66 @@
 /* ========================================================== */
 /*================Footer  responsive css start================== */
 /* =========================================================== */
+
+@media (max-width: 991.98px) {
+  #footer .footer-left {
+    margin-top: 50px;
+    text-align: center;
+  }
+  #footer .footer-left p {
+    margin-bottom: 36px;
+  }
+  #footer .footer-right {
+    margin-top: 32px;
+  }
+  #footer .footer-right {
+    text-align: center;
+  }
+  #footer .footer-right h1 {
+    font-size: 44px;
+    line-height: 55px;
+    margin-bottom: 12px;
+  }
+  #footer .footer-right p {
+    padding: 0 100px;
+  }
+  #footer .footer-right .icon {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #footer .footer-left .footer-left-last .text {
+    padding-top: 24px;
+    padding-left: 24px;
+  }
+  #footer .footer-left .footer-left-last .text h3 {
+    font-size: 13px;
+    line-height: 17px;
+  }
+  #footer .footer-left .footer-left-last .text a {
+    font-size: 10px;
+    line-height: 25px;
+  }
+  #footer .footer-left p {
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: 17px;
+  }
+  #footer .footer-right h1 {
+    font-size: 34px;
+    line-height: 44px;
+    margin-bottom: 12px;
+  }
+  #footer .footer-right p {
+    padding: 0;
+  }
+  #footer .footer-right p {
+    font-size: 10px;
+    line-height: 24px;
+    margin-bottom: 28px;
+  }
+}
 
 /* ========================================================== */
 /*================Footer  responsive css end================== */

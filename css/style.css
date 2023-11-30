@@ -54,6 +54,7 @@ li {
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
+  margin-right: 25px;
   text-align: center;
 }
 #nevbar ul li a:hover {
@@ -66,18 +67,18 @@ li {
   color: var(--white);
   font-size: 30px;
 }
-#nevbar .btn button {
+#nevbar .btn {
   padding: 16px 48px;
   border-radius: 41px;
   border: 2px solid rgba(244, 246, 252, 0.2);
-  margin-left: 48px;
   background-color: transparent;
+  text-align: center;
   transition: all linear 0.3s;
 }
-#nevbar .btn button:hover {
+#nevbar .btn:hover {
   background-color: var(--text-hovar);
 }
-#nevbar .btn button a {
+#nevbar .btn {
   color: var(--White, #fff);
   font-family: var(--font-family);
   font-size: 16px;
@@ -85,7 +86,7 @@ li {
   line-height: 28px;
   transition: all linear 0.3s;
 }
-#nevbar .btn button a:hover {
+#nevbar .btn:hover {
   color: var(--text-color);
 }
 
